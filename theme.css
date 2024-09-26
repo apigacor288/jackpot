@@ -1,0 +1,83 @@
+:root {
+    --first-color: #111111;
+    --second-color: #fff;
+    --third-color: #fdd702;
+    --fourth-color: #e9ab00;
+    
+}
+
+body {
+background: var(--first-color);
+color: var(--second-color);
+}
+
+
+.time-post {
+    font-size: 0.7rem;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+}
+
+.card-post {
+    background: var(--third-color);
+    color: var(--first-color);
+}
+
+.img-post {
+    width: 30rem;
+    max-width: 100%;
+}
+
+.page.active {
+    color: var(--second-color) !important;
+    background: var(--third-color);
+}
+
+.btn-info {
+    background-color: var(--third-color);
+    border-color: var(--third-color) !important;
+    color: var(--first-color);
+}
+
+.btn-info:hover {
+    background-color: var(--fourth-color);
+}
+
+.teks-berjaalan {
+    border-bottom: 1px dashed var(--third-color);
+    padding: 0.3rem;
+    margin-bottom: 0.9rem;
+}
+
+.teks-berjaalan h1, .teks-berjaalan h2, .teks-berjaalan h3, .teks-berjaalan h4, .teks-berjaalan h5, .teks-berjaalan h6, .teks-berjaalan p, .teks-berjaalan strong{
+    padding: 0;
+    margin: 0;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+
+.copyright {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+    and (orientation: portrait) {
+       .title-home {
+        font-size: 1rem;
+       }
+
+       .logo {
+        width: 9rem;
+        max-width: 100%;
+       }
+
+       .search-bar {
+        width: 10rem;
+        max-width: 100%;
+       }
+}
